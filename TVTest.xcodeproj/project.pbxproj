@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		33F377811D53B6E100D2C2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377801D53B6E100D2C2B1 /* AppDelegate.swift */; };
-		33F377831D53B6E100D2C2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377821D53B6E100D2C2B1 /* ViewController.swift */; };
+		33F377831D53B6E100D2C2B1 /* TVTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377821D53B6E100D2C2B1 /* TVTViewController.swift */; };
 		33F377861D53B6E100D2C2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F377841D53B6E100D2C2B1 /* Main.storyboard */; };
 		33F377881D53B6E100D2C2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F377871D53B6E100D2C2B1 /* Assets.xcassets */; };
 		33F3778B1D53B6E100D2C2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F377891D53B6E100D2C2B1 /* LaunchScreen.storyboard */; };
 		33F377961D53B6E100D2C2B1 /* TVTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377951D53B6E100D2C2B1 /* TVTestTests.swift */; };
 		33F377A11D53B6E100D2C2B1 /* TVTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377A01D53B6E100D2C2B1 /* TVTestUITests.swift */; };
+		33F377AF1D53C6B100D2C2B1 /* TVTTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F377AE1D53C6B100D2C2B1 /* TVTTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		33F3777D1D53B6E100D2C2B1 /* TVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F377801D53B6E100D2C2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33F377821D53B6E100D2C2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33F377821D53B6E100D2C2B1 /* TVTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTViewController.swift; sourceTree = "<group>"; };
 		33F377851D53B6E100D2C2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F377871D53B6E100D2C2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33F3778A1D53B6E100D2C2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		33F3779C1D53B6E100D2C2B1 /* TVTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F377A01D53B6E100D2C2B1 /* TVTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVTestUITests.swift; sourceTree = "<group>"; };
 		33F377A21D53B6E100D2C2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F377AE1D53C6B100D2C2B1 /* TVTTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVTTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				33F377801D53B6E100D2C2B1 /* AppDelegate.swift */,
-				33F377821D53B6E100D2C2B1 /* ViewController.swift */,
+				33F377821D53B6E100D2C2B1 /* TVTViewController.swift */,
 				33F377841D53B6E100D2C2B1 /* Main.storyboard */,
 				33F377871D53B6E100D2C2B1 /* Assets.xcassets */,
 				33F377891D53B6E100D2C2B1 /* LaunchScreen.storyboard */,
 				33F3778C1D53B6E100D2C2B1 /* Info.plist */,
+				33F377AE1D53C6B100D2C2B1 /* TVTTableCell.swift */,
 			);
 			path = TVTest;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F377831D53B6E100D2C2B1 /* ViewController.swift in Sources */,
+				33F377831D53B6E100D2C2B1 /* TVTViewController.swift in Sources */,
 				33F377811D53B6E100D2C2B1 /* AppDelegate.swift in Sources */,
+				33F377AF1D53C6B100D2C2B1 /* TVTTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
